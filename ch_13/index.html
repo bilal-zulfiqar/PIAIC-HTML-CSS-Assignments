@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chap_13</title>
+	<style>
+		body {
+			font-family: sans-serif;
+		}
+		a {
+			text-decoration: none;
+		}
+		h4 {
+			color: #212529;
+		}
+		p {
+			color: #7D7C7C;
+			font-size: 16px;
+		}
+		.container {
+			max-width: 1200px;
+			margin: auto;
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-gap: 50px;
+			margin-top: 100px;
+		}
+		.card {
+			box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+			transition: 0.3s;
+		}
+
+		.card:hover {
+			box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+		}
+
+		.card-container {
+			padding: 16px 24px 32px 24px;
+		}
+		.btn {
+			background: #82B1FF;
+			color: #ffffff;
+			border-radius: 3px;
+			padding: 16px 24px;
+			border: none;
+			text-transform: uppercase;
+			font-size: 11px;
+			outline: none;
+			cursor: pointer;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="card">
+			<img src="./1.jpg" alt="Avatar" style="width:100%">
+			<div class="card-container">
+				<h4><b>Author Name</b></h4> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolor? Accusamus voluptatem</p>
+				<button class="btn">read more</button>
+			</div>
+		</div>
+		<!-- ./card -->
+		<div class="card">
+			<img src="./2.jpg" alt="Avatar" style="width:100%">
+			<div class="card-container">
+				<h4><b>Author Name</b></h4> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolor? Accusamus voluptatem</p>
+				<button class="btn">read more</button>
+			</div>
+		</div>
+		<!-- ./card -->
+		<div class="card">
+			<img src="./3.jpg" alt="Avatar" style="width:100%">
+			<div class="card-container">
+				<h4><b>Author Name</b></h4> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, dolor? Accusamus voluptatem</p>
+				<button class="btn">read more</button>
+			</div>
+		</div>
+		<!-- ./card -->
+	</div>
+</body>
+</html>

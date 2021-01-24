@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<div class="logo">
+				<img src="./logo.png" alt="logo">
+			</div>
+			<div class="nav-links">
+				<a class="nav-link" href="index.html">Home</a>
+				<a class="nav-link" href="about.html">About</a>
+				<a class="nav-link" href="portfolio.html">Portfolio</a>
+				<a class="nav-link" href="contact.html">Contact</a>
+			</div>
+		</div>
+		<section class="forms">
+			<form action="/action_page.php">
+				<fieldset>
+					<legend>Your Details:</legend>
+					<label for="name">Name:</label>
+					<input type="text" id="name" name="name"><br><br>
+					<label for="email">Email:</label>
+					<input type="email" id="email" name="email"><br><br>
+				</fieldset>
+			</form>
+			<form>
+				<fieldset>
+					<legend>Your Review:</legend>
+					<br>
+					How did you hear about us?
+					<select name="cars" id="cars">
+						<option value="goole">Google</option>
+						<option value="facebook">Facebook</option>
+						<option value="twitter">Twitter</option>
+					</select>
+					<br><br>
+
+					<input type="radio" id="yes" name="gender" value="yes">
+					<label for="yes">Yes</label>
+
+					<input type="radio" id="no" name="gender" value="no">
+					<label for="no">No</label>
+
+					<input type="radio" id="Maybe" name="gender" value="Maybe">
+					<label for="Maybe">Maybe</label>
+					<br><br>
+
+					<label for="comment">Comment:</label>
+					<br>
+					<textarea name="comment" id="comment" cols="40" rows="4"></textarea>
+					
+					<br><br>
+					<input type="checkbox" id="signup" name="signup" value="Boat" checked="">
+					<label for="signup"> Sign me up for email updates</label>
+
+					<br>
+					<input type="submit" value="Submit Review">
+				</fieldset>
+			</form>
+		</section>
+		<section class="map">
+        <iframe class="shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212450.1293940459!2d72.93071670265589!3d33.69514749459387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38dfbfe8eb6fcb0d%3A0x8b69f5187f009ac1!2sPakistan%20Monument!5e0!3m2!1sen!2s!4v1601214751836!5m2!1sen!2s" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </section>
+	</div>
+	<!-- ./container -->
+	<div class="footer">
+		Copyright © 2020. All rights reserved.
+	</div>
+</body>
+</html>

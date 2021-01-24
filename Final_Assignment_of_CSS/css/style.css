@@ -1,0 +1,615 @@
+/*------Custom CSS------*/
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+/* Tob-bar CSS */
+#top-bar {
+	background: #212121;
+	height: auto;
+}
+#top-bar .row {
+	height: auto;
+  line-height: 3;
+}
+.top-social .t-icon:hover {
+	cursor: pointer;
+}
+.top-social .t-icon a {
+	color: #ffffff;
+}
+.top-social .t-icon:not(:first-child) {
+	margin-left: .5rem;
+}
+.top-social .t-icon {
+	background: #303030;
+	width: 2rem;
+	height: 2rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 2.15;
+}
+.top-contact span {
+	color: #a2d84c;
+}
+.top-contact a:not(:first-child) {
+	margin-left: 1rem;
+}
+.top-contact a:not(:last-child) {
+	color: #ffffff;
+}
+.top-contact .btn {
+	background: #a2d84c;
+	padding: .25rem .25rem;
+	font-size: .75rem;
+}
+.top-contact .btn:hover {
+	background: #86bd2e;
+}
+
+/*--- Navbar CSS---*/
+/* .nbr {
+} */
+.navbar-light .navbar-nav .active > .nav-link {
+	border-bottom: 4px solid #ffbd1a;
+}
+@media only screen and (max-width: 767px) {
+	.top-contact {
+		display: none;
+	}
+}
+@media only screen and (max-width: 991px) {
+	.navbar-light .navbar-nav .active > .nav-link {
+		width: 100px;
+    text-align: center;
+	}
+}
+
+/*--- Carousel CSS---*/
+#header {
+	margin-top: 6.96rem;
+}
+
+/* #header .carousel-inner {
+	height: 100vh;
+} */
+
+#header .c-btn {
+	background: #ffbd1a;
+	color: #000000;
+}
+#header .c-btn:hover {
+	background: #d69b04;
+}
+/* #header .carousel-caption {
+	transform: translateY(-200%);
+	right: 0;
+	left: 0;
+} */
+
+#header .c-title {
+	font-size: 3rem;
+	background-color: #A2D84C;
+}
+.carousel-caption {
+	margin-bottom: 9rem;
+	right: 0;
+  left: 0;
+}
+#header .c-title-bg {
+	background-color: #8dc63f;
+	padding: 0 1rem;
+	margin: auto;
+	width: 50%;
+}
+#header .carousel-caption .c-sub-title {
+	/* font-size: 1rem; */
+	margin: auto;
+}
+#header .carousel-caption .btn {
+	border-bottom: 3px solid #FF831D;
+	padding: .3rem 1.5rem;
+}
+#header .carousel-indicators li {
+	margin-bottom: 2rem;
+	/* transform: translateY(-200%); */
+	width: .75rem;
+	height: .75rem;
+	border-radius: 100%;
+}
+
+
+@media only screen and (max-width: 991px) {
+	#header .c-title {
+		font-size: 2.75rem;
+	}
+	.carousel-caption {
+		margin-bottom: 7rem;
+	}
+	#header .carousel-indicators li {
+		margin-bottom: 3rem;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#header .c-title {
+		font-size: 2.5rem;
+	}
+	#header .c-sub-title {
+		font-size: 1rem;
+	}
+	#header .c-title-bg {
+		width: 60%;
+	}
+	/* .carousel-caption {
+		margin-bottom: 5rem;
+	}
+	#header .carousel-indicators li {
+		margin-bottom: 1rem;
+	} */
+}
+@media only screen and (max-width: 576px) {
+	#header .c-title {
+		font-size: 2.25rem;
+	}
+	#header .c-sub-title {
+		font-size: .9rem;
+	}
+	#header .c-title-bg {
+		width: 100%;
+	}
+	/* .carousel-caption {
+		margin-bottom: 12rem;
+	} */
+	/* #header .carousel-caption .c-sub-title {
+		display: none;
+	} */
+	/* #header .carousel-caption .btn {
+		margin-top: 2rem;
+		padding: .2rem 1rem;
+	} */
+}
+
+.line {
+	z-index: 10;
+	right: 0;
+}
+
+/*--- Advantages CSS---*/
+#advantage .ad-img {
+	width: 8rem;
+	height: 8rem;
+	background: #f1f2f2;
+	border-radius: 50%;
+	line-height: 8;
+	color: #a2d84c;
+}
+#advantage p {
+	font-size: .85rem;
+	color: #9e9e9e;
+}
+
+/*--- About us CSS---*/
+#about {
+	background: url(../images/abusbg1.png) no-repeat center/cover;
+}
+@media only screen and (max-width: 768px) {
+	#about .about-info {
+		padding: 0 1.5rem !important;
+	}
+	#about .ab-img {
+		padding-top: 2rem;
+	}
+}
+
+/*--- Services CSS---*/
+#services .column {
+	background: #f1f2f2;
+	padding: 3rem 1rem;
+}
+
+#services .sc-img {
+	width: 5rem;
+	height: 5rem;
+	background: #ffbd1a;
+	border-radius: 50%;
+	line-height: 5.8;
+	color: #ef4136;
+	top: -3.5rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 1;
+}
+
+#services p {
+	font-size: .85rem;
+	color: #9e9e9e;
+}
+
+#services .sc-link {
+	color: #8dc63f;
+	text-decoration: underline;
+	font-weight: 600;
+}
+
+/*--- Portfolio CSS---*/
+#portfolio .pf-c1 {
+	background-color: #5E5E5E;
+}
+#portfolio .pf-c2 {
+	background-color: #D1D3D4;
+}
+#portfolio .pf-c3 {
+	background-color: #A3A3A3;
+}
+#portfolio .pf-c4 {
+	background-color: #838383;
+}
+#portfolio .pf-c5 {
+	background-color: #FFFFFF;
+}
+#portfolio .pf-c6 {
+	background-color: #EF4136;
+}
+#portfolio {
+	background: #212121;
+}
+#portfolio .g-img {
+	float: left;
+	height: 12rem;
+}
+.nav-pills .nav-link,
+.nav-pills .show > .nav-link {
+	color: #fff;
+	background-color: transparent;
+	font-weight: 600;
+	font: 600;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	color: #ffbd1a;
+	background-color: transparent;
+}
+@media only screen and (max-width: 540px) {
+	#portfolio .g-img {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 540px) {
+	#portfolio .g-img {
+		width: 100%;
+	}
+}
+@media only screen and (min-width: 720px) {
+	#portfolio .g-img {
+		width: 50%;
+	}
+}
+/* @media only screen and (min-width: 960px) {
+	#portfolio .g-img {
+		width: 33.33%;
+	}
+} */
+@media only screen and (min-width: 1140px) {
+	#portfolio .g-img {
+		width: 20%;
+	}
+}
+
+/*--- Process CSS---*/
+#process .column {
+	width: 7rem;
+	height: 7rem;
+	border: 3px solid #d1d3d4;
+	border-radius: 50%;
+	background: #ffffff;
+}
+#process .pc-num {
+	width: 2rem;
+	height: 2rem;
+	background: #ffbd1a;
+	font-weight: 600;
+	border-radius: 50%;
+	line-height: 2;
+	top: -2rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	z-index: 1;
+}
+#process .pc-img {
+	line-height: 6.5;
+	color: #668e19;
+}
+#process p {
+	font-size: .75rem;
+}
+
+#process .line {
+	height: .25rem;
+	background: #d1d3d4;
+	z-index: -1;
+	top: 3.5rem;
+}
+@media (min-width: 320px) {
+	#process .line {
+		width: 80%;
+		left: 10%;
+	}
+}
+@media (min-width: 576px) {
+	#process .line-first {
+		width: 50%;
+		left: 50%;
+	}
+	#process .line-two {
+		width: 50%;
+		left: 0;
+	}
+	#process .line-three {
+		width: 50%;
+		left: 50%;
+	}
+	#process .line-four {
+		width: 50%;
+		left: 0;
+	}
+	#process .line-five {
+		width: 50%;
+		left: 50%;
+	}
+	#process .line-six {
+		width: 50%;
+		left: 0;
+	}
+}
+@media (min-width: 768px) {
+	#process .line-first {
+		width: 50%;
+		right: 0;
+	}
+	#process .line-two {
+		width: 100%;
+		left: 0;
+	}
+	#process .line-three {
+		width: 50%;
+		left: 0;
+	}
+	#process .line-four {
+		width: 50%;
+		left: 50%;
+	}
+	#process .line-five {
+		width: 100%;
+		left: 0;
+	}
+	#process .line-six {
+		width: 50%;
+		left: 0;
+	}
+}
+@media (min-width: 992px) {
+	#process .line-first {
+		width: 50%;
+		right: 0;
+	}
+	#process .line-two {
+		width: 100%;
+		left: 0;
+	}
+	#process .line-three {
+		width: 100%;
+		left: 0;
+	}
+	#process .line-four {
+		width: 100%;
+		left: 0;
+	}
+	#process .line-five {
+		width: 100%;
+		left: 0;
+	}
+	#process .line-six {
+		width: 50%;
+		left: 0;
+	}
+}
+
+/*---Peoples Button CSS---*/
+#people {
+	background: #f1f2f2;
+	height: 100%;
+}
+#people .carousel-item {
+  height: auto;
+}
+#people .p-img {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	line-height: 5.75;
+	background: #ffffff;
+	text-align: center;
+}
+#people p {
+	font-size: .8rem;
+}
+#people .row {
+	padding: 1rem 0;
+}
+
+#people .carousel-indicators li {
+	transform: translateY(110%);
+	width: .85rem;
+	height: .85rem;
+	background-color: #ffbd1a;
+	opacity: 1;
+	border-radius: 50%;
+}
+#people .carousel-item {
+  height: 100%;
+}
+#people .carousel-indicators li.active {
+	background-color: #ff831d;
+	opacity: 1;
+}
+@media only screen and (max-width: 768px) {
+	.col12 {
+		width: 100%;
+		text-align: center;
+	}
+	.col12 .p-img {
+		margin: 0 auto;
+		margin-bottom: .75rem;
+	}
+}
+
+/*--- Contact CSS---*/
+#contact .mail {
+	background-color: #8dc63f;
+}
+#contact .mail .btn {
+	background-color: #ffbd1a;
+	border-bottom: 2px solid #e79628;
+	font-weight: 600;
+}
+#contact .mail .btn:hover {
+	background-color: #f8b918;
+}
+#contact p {
+	font-size: .6rem;
+}
+#contact .form-control {
+	outline: none;
+	box-shadow: none;
+	border-color: transparent;
+}
+#contact .form-control::placeholder {
+	text-transform: uppercase;
+	color: #BCBEC0;
+}
+#contact .c-info {
+	font-size: 1.15rem;
+	font-weight: 600;
+}
+#contact .c-info span {
+	color: #668e19;
+}
+#contact .container-fluid {
+	padding-right: 0px;
+	padding-left: 0px;
+}
+@media only screen and (max-width: 991px) {
+	#contact .btn {
+		width: 100% !important;
+	}
+}
+@media only screen and (max-width: 768px) {
+	#contact .c-info .text-center {
+		margin-bottom: .5rem;
+	}
+}
+@media only screen and (max-width: 576px) {
+	#contact .form-control {
+		margin-bottom: .5rem;
+	}
+	#contact .btn {
+		width: 100% !important;
+	}
+}
+
+/* Footer CSS */
+#footer {
+	background-color: #668e19;
+}
+#footer .f-desc {
+	font-size: .9rem;
+}
+#footer ul li a {
+	color: #ffffff;
+	/* text-decoration: underline; */
+	line-height: 1.75;
+}
+#footer .ul-contact a {
+	text-decoration: none;
+}
+#footer .f-social a {
+	color: #5e811e;
+}
+.f-social .f-icon {
+	background: #303030;
+	width: 1.6rem;
+	height: 1.6rem;
+	font-size: .8rem;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 2.12;
+}
+
+.f-social .f-icon:not(:first-child) {
+	margin-left: 1rem;
+}
+
+@media only screen and (min-width: 991px) {
+	#footer .ul-border {
+		border-right: 3px solid #8dc63f;
+	}
+}
+@media only screen and (max-width: 576px) {
+	#footer .pl-4 {
+		margin: 0 2rem;
+	}
+}
+
+/*---BackToTop Button CSS---*/
+#scroll {
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	cursor: pointer;
+	width: 2.5rem;
+	height: 2.5rem;
+	background-color: #C0C0C0;
+	text-indent: -9999px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	border-radius: 5px;
+	transition: 0.7s ease-in-out;
+	-moz-transition: 0.7s ease-in-out;
+	-webkit-transition: 0.7s ease-in-out;
+}
+#scroll .btt {
+	color: #212121;
+	display: block;
+	font-size: 1.5rem;
+	text-align: center;
+	margin: 0.5rem auto;
+}
+#scroll:hover {
+	bottom: 1rem;
+}
+
+/* Utility CSS */
+.service {
+	font-weight: bold;
+}
+.service .green {
+	color: #668e19;
+}

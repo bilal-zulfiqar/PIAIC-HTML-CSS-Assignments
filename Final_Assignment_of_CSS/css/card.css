@@ -1,0 +1,137 @@
+/*------ Card Custom CSS------*/
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+body {
+  background-image: url(../card-bg.png) no-repeat center/cover;
+}
+* {
+	box-sizing: border-box;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+.t-color {
+	color: #787A78;
+	font-size: .8rem;
+}
+.gline {
+	width: 5rem;
+	height: 3px;
+	background-color: #8ACE09;
+	border: none;
+	outline: none;
+}
+.card-group>.card+.card {
+	border-left: 1px solid #AAAAAA;
+}
+.card-title {
+	color: #222222;
+}
+.card {
+  border: 1px solid #AAAAAA;
+}
+.card-center {
+	border: 2px solid #245677 !important;
+	transform: scale(1.1);
+	z-index: 1;
+	bottom: 1.5rem;
+}
+.p-heading {
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+.price {
+	color: #8ACE08;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.offer {
+	font-weight: bold;
+}
+.cms {
+	font-weight: bold;
+	color: #3E454C;
+}
+.guarantee {
+	font-weight: bold;
+	color: #3E454C;
+}
+.p-heading small {
+	font-size: .75rem;
+}
+.order-btn {
+	position: absolute;
+	z-index: 1;
+	bottom: -18px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	padding: .5rem .5rem;
+	width: 8rem;
+	border-radius: 0;
+	border: 1px solid #0C5DA5;
+	border-left: none;
+	border-bottom: none;
+	-webkit-box-shadow:inset 0px 0px 0px 1px #ffffff;
+  -moz-box-shadow:inset 0px 0px 0px 1px #ffffff;
+  box-shadow:inset 0px 0px 0px 1px #ffffff;
+}
+.all {
+	padding: .75rem 1rem;
+	border-radius: 0;
+	border: 1px solid #6A9F06;
+	border-left: none;
+	border-bottom: none;
+	-webkit-box-shadow:inset 0px 0px 0px 1px #ffffff;
+  -moz-box-shadow:inset 0px 0px 0px 1px #ffffff;
+  box-shadow:inset 0px 0px 0px 1px #ffffff;
+}
+.btn {
+	font-size: .75rem;
+}
+.btn.focus, .btn:focus,
+.btn-primary.focus, .btn-primary:focus,
+.btn-success.focus, .btn-success:focus {
+	outline: 0;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.card {
+		min-width: 100% !important;
+		margin-bottom: 2rem !important;
+	}
+	/* .card:not(:first-child) {
+	} */
+	.card-center {
+		transform: scale(1);
+		bottom: 0;
+	}
+}
+
+.tooltip > .tooltip-inner {
+	background-color: #8ACE09;
+}
+.arrow::before, .bs-tooltip-left .arrow::before {
+  border-left-color: #8ACE09;
+}
+.price-tooltip {
+	width: 1.2rem;
+	height: 1.2rem;
+	border-radius: 50%;
+	border: none;
+	background-color: #8ACE09;
+	line-height: 2;
+}
+.cms .price-tooltip {
+	line-height:1.5;
+}
